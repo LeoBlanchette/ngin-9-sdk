@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cknkfsme44u7d" path="res://mods/content/models/sources/flashlight.blend" id="1_mubph"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_mubph"]
+size = Vector3(0.17993164, 0.171875, 0.4519043)
+
 [node name="flashlight" unique_id=268997069 instance=ExtResource("1_mubph")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=226060449]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.092285156, -0.0018310547)
+shape = SubResource("BoxShape3D_mubph")

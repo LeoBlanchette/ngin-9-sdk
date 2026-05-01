@@ -2,4 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://cjn0iwpwc20l" path="res://mods/content/models/sources/mallet.blend" id="1_65o2u"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_65o2u"]
+size = Vector3(0.08203125, 0.43737793, 0.09472656)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6ft52"]
+size = Vector3(0.13769531, 0.13800049, 0.25195313)
+
 [node name="mallet" unique_id=799060873 instance=ExtResource("1_65o2u")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1607063058]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21868896, 0)
+shape = SubResource("BoxShape3D_65o2u")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1330654895]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5119324, 0)
+shape = SubResource("BoxShape3D_6ft52")

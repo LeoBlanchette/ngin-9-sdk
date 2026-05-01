@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/camera.blend-aa00498522e4c5bfb94e4a3f81174c62
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

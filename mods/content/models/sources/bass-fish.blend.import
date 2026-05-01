@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/bass-fish.blend-549d5ee14ce27d9796239b6e76d97
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

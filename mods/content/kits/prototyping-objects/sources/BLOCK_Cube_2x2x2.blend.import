@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/BLOCK_Cube_2x2x2.blend-38837c8b603a2b9e220ff4
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

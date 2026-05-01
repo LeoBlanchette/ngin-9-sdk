@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cxgbr8iue4xmd" path="res://mods/content/models/sources/microscope.blend" id="1_oy7x0"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_oy7x0"]
+size = Vector3(0.39453125, 0.85546875, 0.4958496)
+
 [node name="microscope" unique_id=1558483729 instance=ExtResource("1_oy7x0")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1348180987]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4279251, 0.0037231445)
+shape = SubResource("BoxShape3D_oy7x0")

@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://bg55rh5kbpwxs" path="res://mods/content/models/sources/cutting-board.blend" id="1_8dvv2"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_8dvv2"]
+size = Vector3(0.6044922, 0.051513672, 0.40722656)
+
 [node name="cutting-board" unique_id=198407092 instance=ExtResource("1_8dvv2")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1889124481]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025756836, 0)
+shape = SubResource("BoxShape3D_8dvv2")

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/gas-can.blend-74981125f752b82fe7cb14869fe23b9
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/lunch-box.blend-eb9d58e44a3651f39d76632f8bd95
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://b8glmtpym55pw" path="res://mods/content/models/sources/book-brown.blend" id="1_pe0k0"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_pe0k0"]
+size = Vector3(0.3046875, 0.1015625, 0.45898438)
+
 [node name="book-brown" unique_id=57548287 instance=ExtResource("1_pe0k0")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=58732305]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05078125, 0)
+shape = SubResource("BoxShape3D_pe0k0")

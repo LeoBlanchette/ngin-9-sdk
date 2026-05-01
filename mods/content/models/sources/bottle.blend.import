@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/bottle.blend-4a0fabc73832f4626ca0333d4a2ffff9
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

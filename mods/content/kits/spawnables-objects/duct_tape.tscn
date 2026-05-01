@@ -2,4 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://c175b0sjttuo5" path="res://mods/content/models/sources/duct-tape.blend" id="1_hsgm6"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hsgm6"]
+height = 0.14300537
+radius = 0.21386719
+
 [node name="duct-tape" unique_id=54710550 instance=ExtResource("1_hsgm6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=142237513]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.075531006, 0)
+shape = SubResource("CylinderShape3D_hsgm6")

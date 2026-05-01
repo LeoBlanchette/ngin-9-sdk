@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/lamp.blend-da4bf0de1e93366d49470f1a130f46cc.s
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

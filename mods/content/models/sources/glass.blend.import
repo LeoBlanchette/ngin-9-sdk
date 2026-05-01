@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/glass.blend-eaa4732c2bcc7586a4491562c27f439c.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

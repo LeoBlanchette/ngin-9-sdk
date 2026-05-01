@@ -3,7 +3,14 @@
 [ext_resource type="PackedScene" uid="uid://c1tleg02x6jby" path="res://mods/content/kits/prototyping-objects/sources/STRUCTURE_Wall_2x1x3.blend" id="1_ytwuj"]
 [ext_resource type="Material" uid="uid://drug21gp8mjuc" path="res://mods/content/kits/prototyping-objects/materials/prototype-grid-material.tres" id="2_74tf6"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_74tf6"]
+size = Vector3(2, 3, 0.5)
+
 [node name="STRUCTURE_Wall_2x1x3" unique_id=1074245388 instance=ExtResource("1_ytwuj")]
 
-[node name="STRUCTURE_Wall_2x1x3" parent="." index="0" unique_id=512616421]
+[node name="STRUCTURE_Wall_2x1x3" parent="." index="0" unique_id=1171036795]
 surface_material_override/0 = ExtResource("2_74tf6")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1768241543]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, -0.25)
+shape = SubResource("BoxShape3D_74tf6")

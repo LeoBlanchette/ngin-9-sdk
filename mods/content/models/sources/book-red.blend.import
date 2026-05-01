@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/book-red.blend-8f1b24f3d216e83ac471d0871a83b6
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

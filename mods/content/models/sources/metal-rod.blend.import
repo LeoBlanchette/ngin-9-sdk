@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/metal-rod.blend-1fc4380fed10833357ccfe97ad272
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

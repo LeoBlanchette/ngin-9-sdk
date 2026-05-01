@@ -2,4 +2,25 @@
 
 [ext_resource type="PackedScene" uid="uid://b5yywi04n6jle" path="res://mods/content/models/sources/unilink.blend" id="1_paq38"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_paq38"]
+size = Vector3(0.24047852, 0.49804688, 0.18591309)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tdov8"]
+size = Vector3(0.24047852, 0.24328613, 0.07066345)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_n4obi"]
+size = Vector3(0.05493164, 0.15914917, 0.057250977)
+
 [node name="unilink" unique_id=729361794 instance=ExtResource("1_paq38")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=486774668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25097656, -0.03302002)
+shape = SubResource("BoxShape3D_paq38")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=707909110]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.37835693, 0.09424591)
+shape = SubResource("BoxShape3D_tdov8")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=886199254]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.068725586, 0.582016, -0.06816864)
+shape = SubResource("BoxShape3D_n4obi")

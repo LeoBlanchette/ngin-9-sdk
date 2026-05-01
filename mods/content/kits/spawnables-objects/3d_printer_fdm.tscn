@@ -2,4 +2,29 @@
 
 [ext_resource type="PackedScene" uid="uid://cep2gqx4c7frh" path="res://mods/content/models/sources/3d-printer-fdm.blend" id="1_ytqan"]
 
-[node name="3d-printer-fdm" unique_id=1238997862 instance=ExtResource("1_ytqan")]
+[sub_resource type="BoxShape3D" id="BoxShape3D_ytqan"]
+size = Vector3(1.2734375, 0.26208496, 1.1694336)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_204ko"]
+size = Vector3(1.2734375, 0.9599762, 0.21838379)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4dbfl"]
+size = Vector3(0.23132324, 0.49256134, 0.36872864)
+
+[node name="3d-printer-fdm" unique_id=1139661051 instance=ExtResource("1_ytqan")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1422341839]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.12860107, 0.14282227)
+shape = SubResource("BoxShape3D_ytqan")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=994281634]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7451706, 0.085876465)
+shape = SubResource("BoxShape3D_204ko")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=2047102619]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5223999, 0.51146317, -0.20485687)
+shape = SubResource("BoxShape3D_4dbfl")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=441791436]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.522, 0.511, -0.205)
+shape = SubResource("BoxShape3D_4dbfl")

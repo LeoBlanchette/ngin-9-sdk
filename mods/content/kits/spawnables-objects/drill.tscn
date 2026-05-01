@@ -2,4 +2,25 @@
 
 [ext_resource type="PackedScene" uid="uid://bchy002m5rx8a" path="res://mods/content/models/sources/drill.blend" id="1_likdy"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_likdy"]
+size = Vector3(0.27368164, 0.6138611, 0.35888672)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mfuu0"]
+size = Vector3(0.27368164, 0.24589157, 0.5949707)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nyxrp"]
+size = Vector3(0.1015625, 0.08674145, 0.30181885)
+
 [node name="drill" unique_id=278064430 instance=ExtResource("1_likdy")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1722170934]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3132782, 0.004638672)
+shape = SubResource("BoxShape3D_likdy")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1824540747]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74685097, -0.003540039)
+shape = SubResource("BoxShape3D_mfuu0")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1627726826]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7980342, 0.4456482)
+shape = SubResource("BoxShape3D_nyxrp")

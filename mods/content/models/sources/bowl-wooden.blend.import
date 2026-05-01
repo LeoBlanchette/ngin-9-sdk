@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/bowl-wooden.blend-7f65d3e570ece66ebf746c7de4c
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/hand-saw.blend-ebf4e2acb5bbcf955ed903364d02c6
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

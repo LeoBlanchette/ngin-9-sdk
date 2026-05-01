@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/drier.blend-e8e9d85e71f421b42490ec766ebebdf8.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

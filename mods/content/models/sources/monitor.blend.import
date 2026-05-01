@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/monitor.blend-705c1188cd56f6207dbc671750f99b4
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

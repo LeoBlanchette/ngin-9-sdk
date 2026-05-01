@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/bandage.blend-cca55d2a30dfa5c5a64a86a3c97d985
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

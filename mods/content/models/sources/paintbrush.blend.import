@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/paintbrush.blend-b455b6082227e7dc52f347f4c5ff
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

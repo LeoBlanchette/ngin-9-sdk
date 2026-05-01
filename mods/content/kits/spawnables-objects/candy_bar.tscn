@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://c8do64aryxgdt" path="res://mods/content/models/sources/candy-bar.blend" id="1_4jqi2"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_4jqi2"]
+size = Vector3(0.27514648, 0.101501465, 0.69921875)
+
 [node name="candy-bar" unique_id=1687232002 instance=ExtResource("1_4jqi2")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1582375965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.050689697, 0)
+shape = SubResource("BoxShape3D_4jqi2")

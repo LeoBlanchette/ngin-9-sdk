@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ci7l0yg8q3t1y"
-path="res://.godot/imported/hammer.blend-1c2f2663a210a0719866912e099e34d2.scn"
+uid="uid://b7n6568s53ew5"
+path="res://.godot/imported/stone-2.blend-23697ebb46fedfed0d25b4d2f55ee732.scn"
 
 [deps]
 
-source_file="res://mods/content/models/sources/hammer.blend"
-dest_files=["res://.godot/imported/hammer.blend-1c2f2663a210a0719866912e099e34d2.scn"]
+source_file="res://mods/content/models/sources/stone-2.blend"
+dest_files=["res://.godot/imported/stone-2.blend-23697ebb46fedfed0d25b4d2f55ee732.scn"]
 
 [params]
 

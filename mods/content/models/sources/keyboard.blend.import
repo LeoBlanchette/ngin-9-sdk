@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/keyboard.blend-b5e6c8c98f7513f7b5ed087d429879
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/fries.blend-32c012e485c2fb28903b6c577a1384f5.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

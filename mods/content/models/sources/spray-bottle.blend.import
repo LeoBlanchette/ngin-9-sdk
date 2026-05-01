@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/spray-bottle.blend-b472199dfb554e6497e036790e
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/propane-tank.blend-3393cceb1f00ae60bf494bdd8b
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

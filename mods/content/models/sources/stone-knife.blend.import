@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/stone-knife.blend-4b571376c18db28b4642f66f115
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

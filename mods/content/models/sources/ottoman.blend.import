@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/ottoman.blend-767659c3b654ba3d417879a4dd59801
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

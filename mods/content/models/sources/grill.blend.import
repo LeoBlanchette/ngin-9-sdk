@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/grill.blend-c992c73bb2117d24da94f84b026d74da.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

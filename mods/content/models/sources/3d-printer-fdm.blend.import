@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/3d-printer-fdm.blend-5293084409a6c369731a5dcc
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

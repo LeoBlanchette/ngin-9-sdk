@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/patio-chair.blend-3f8ab94960fc3af230b0975e896
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

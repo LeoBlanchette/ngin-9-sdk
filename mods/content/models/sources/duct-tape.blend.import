@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/duct-tape.blend-2c829fcf74b7a101f59c89c20842b
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

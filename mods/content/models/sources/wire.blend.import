@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/wire.blend-92191a5c123ad9189077737f5f1df2bd.s
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

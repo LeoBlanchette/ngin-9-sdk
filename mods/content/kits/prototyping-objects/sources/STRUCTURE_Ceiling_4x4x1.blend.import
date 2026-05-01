@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/STRUCTURE_Ceiling_4x4x1.blend-3176005a76e2305
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

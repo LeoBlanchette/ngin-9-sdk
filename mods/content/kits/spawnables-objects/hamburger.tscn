@@ -2,4 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://pdafl4psdvb4" path="res://mods/content/models/sources/hamburger.blend" id="1_pqpwm"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pqpwm"]
+height = 0.22131348
+radius = 0.23291016
+
 [node name="hamburger" unique_id=182457726 instance=ExtResource("1_pqpwm")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1697669069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.116882324, 0)
+shape = SubResource("CylinderShape3D_pqpwm")

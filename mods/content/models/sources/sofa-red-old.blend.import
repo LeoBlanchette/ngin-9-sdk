@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/sofa-red-old.blend-1ce42a40ac2fbc8ce6b1a29294
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

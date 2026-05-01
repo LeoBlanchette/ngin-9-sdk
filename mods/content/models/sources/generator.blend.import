@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/generator.blend-b219c74ce9e22890e51b09845c2de
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

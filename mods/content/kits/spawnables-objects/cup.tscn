@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://dsucb07hsnmch" path="res://mods/content/models/sources/cup.blend" id="1_md8u6"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_md8u6"]
+height = 0.23577881
+radius = 0.10253906
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_l4qr5"]
+size = Vector3(0.043945313, 0.22937012, 0.0814209)
+
 [node name="cup" unique_id=1919326592 instance=ExtResource("1_md8u6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=564127718]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.12069702, 0)
+shape = SubResource("CylinderShape3D_md8u6")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1856858754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11639404, -0.13848877)
+shape = SubResource("BoxShape3D_l4qr5")

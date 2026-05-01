@@ -2,4 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://b8uotngyutjfq" path="res://mods/content/models/sources/battery.blend" id="1_7nqpt"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_7nqpt"]
+height = 0.23309326
+radius = 0.053710938
+
 [node name="battery" unique_id=2061021112 instance=ExtResource("1_7nqpt")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=59032333]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11557007, 0)
+shape = SubResource("CylinderShape3D_7nqpt")

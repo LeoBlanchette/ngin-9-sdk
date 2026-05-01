@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/drill.blend-77c5b04fb4255fe781ef6349c96066e0.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -2,4 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://vdbn34sjboss" path="res://mods/content/models/sources/boombox.blend" id="1_60l7a"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_60l7a"]
+size = Vector3(1, 0.7548218, 0.36950684)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v3gqn"]
+size = Vector3(0.11376953, 0.43236542, 0.14666748)
+
 [node name="boombox" unique_id=1437429717 instance=ExtResource("1_60l7a")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=694828526]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.37442017, -0.009094238)
+shape = SubResource("BoxShape3D_60l7a")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1480106398]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.44311523, 0.975132, -0.120513916)
+shape = SubResource("BoxShape3D_v3gqn")

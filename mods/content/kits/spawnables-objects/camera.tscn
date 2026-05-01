@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://dbiv7q6e1yolb" path="res://mods/content/models/sources/camera.blend" id="1_sq5t2"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_sq5t2"]
+size = Vector3(0.39282227, 0.246521, 0.2286377)
+
 [node name="camera" unique_id=66657875 instance=ExtResource("1_sq5t2")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1548325106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.1253357, 0.034240723)
+shape = SubResource("BoxShape3D_sq5t2")

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/flower-pot.blend-50ac5b061196a38de6f6f91f20c4
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

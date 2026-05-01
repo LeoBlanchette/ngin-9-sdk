@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/hamburger.blend-3b759a780360cd1a2e6eca64e8e1c
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

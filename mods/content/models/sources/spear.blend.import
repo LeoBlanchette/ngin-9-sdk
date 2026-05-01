@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/spear.blend-6a282899b7bcd3fe583ec3cc381734a8.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

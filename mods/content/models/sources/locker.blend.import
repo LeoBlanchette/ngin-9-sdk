@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/locker.blend-5400eb5f848523f5251abbb24fd095e3
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

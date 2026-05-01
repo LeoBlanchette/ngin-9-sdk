@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/metal-scrap.blend-c3e82182481ffd326b6dbfa1b3f
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

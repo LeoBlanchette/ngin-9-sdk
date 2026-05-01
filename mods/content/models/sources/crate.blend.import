@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/crate.blend-0902b1ad0534bcab1ffee4567b9deb8f.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

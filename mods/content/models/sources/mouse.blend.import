@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/mouse.blend-5a801022fe754594aa481560295f7d45.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

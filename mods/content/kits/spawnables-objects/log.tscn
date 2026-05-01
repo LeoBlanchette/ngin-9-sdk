@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://d2pk4fjbnk27a" path="res://mods/content/models/sources/log.blend" id="1_2k0th"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_2k0th"]
+height = 1.1403809
+radius = 0.19824219
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dv3jt"]
+size = Vector3(0.18939209, 0.11303711, 0.1015625)
+
 [node name="log" unique_id=141881598 instance=ExtResource("1_2k0th")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1884922769]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.043334976, 0.17601442, 0)
+shape = SubResource("CylinderShape3D_2k0th")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=974564677]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.21981812, 0.40686035, 0)
+shape = SubResource("BoxShape3D_dv3jt")

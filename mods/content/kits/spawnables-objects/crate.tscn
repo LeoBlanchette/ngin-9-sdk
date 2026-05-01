@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://dg7m7ptbkvnqp" path="res://mods/content/models/sources/crate.blend" id="1_2itsw"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_2itsw"]
+size = Vector3(1.5, 1.5, 1.5)
+
 [node name="crate" unique_id=991968194 instance=ExtResource("1_2itsw")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=668019787]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75283813, 0)
+shape = SubResource("BoxShape3D_2itsw")

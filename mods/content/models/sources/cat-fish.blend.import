@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/cat-fish.blend-781162864c1129d3b535a3962e39dd
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://byrhvk3xcrhjl" path="res://mods/content/models/sources/alluminium.blend" id="1_uufoo"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_uufoo"]
+height = 0.48043555
+radius = 0.10205078
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uoe1a"]
+size = Vector3(0.48339844, 0.05102539, 0.22259521)
+
 [node name="alluminium" unique_id=333407584 instance=ExtResource("1_uufoo")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2146725303]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.0009482503, 0.101476416, 0)
+shape = SubResource("CylinderShape3D_uufoo")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=307280874]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.025512695, 0.18344116)
+shape = SubResource("BoxShape3D_uoe1a")

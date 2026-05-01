@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/trash-can.blend-6ac0fac4e2ed5da5eb9470c473b14
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

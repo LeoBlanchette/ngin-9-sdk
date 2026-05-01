@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/wooden-rod.blend-59702b4590a5aad0e99c8cc1cf78
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

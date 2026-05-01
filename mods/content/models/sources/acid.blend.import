@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/acid.blend-5d54d61a2bcdc9b4993a3c80135ce3b9.s
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/rolling-pin.blend-715785e404842ede17d1fbb2555
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

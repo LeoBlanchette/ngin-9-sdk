@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://b8a87tyf8utms" path="res://mods/content/models/sources/glue.blend" id="1_da8nh"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_da8nh"]
+size = Vector3(0.16796875, 0.31884766, 0.083984375)
+
 [node name="glue" unique_id=1800615724 instance=ExtResource("1_da8nh")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=956920238]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16333008, 0)
+shape = SubResource("BoxShape3D_da8nh")

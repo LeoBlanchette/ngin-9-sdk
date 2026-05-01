@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/chainsaw.blend-6e5d6310dbbaca1cdd2e1bbb12f5da
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

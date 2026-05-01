@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cf6872cj8ynec" path="res://mods/content/models/sources/circuit-board.blend" id="1_biitq"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_biitq"]
+size = Vector3(0.36743164, 0.07470703, 0.27685547)
+
 [node name="circuit-board" unique_id=272704839 instance=ExtResource("1_biitq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1688529042]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.037353516, 0.012451172)
+shape = SubResource("BoxShape3D_biitq")

@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cxe75pp1h33rr" path="res://mods/content/models/sources/car-battery.blend" id="1_0s2vt"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_0s2vt"]
+size = Vector3(0.49902344, 0.49560547, 0.35742188)
+
 [node name="car-battery" unique_id=1150259390 instance=ExtResource("1_0s2vt")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=956699133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25219727, 0)
+shape = SubResource("BoxShape3D_0s2vt")

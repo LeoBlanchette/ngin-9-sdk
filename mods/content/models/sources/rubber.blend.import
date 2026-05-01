@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/rubber.blend-86ee45245ac5476382fd2486be1dd52a
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

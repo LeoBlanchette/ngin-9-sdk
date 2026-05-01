@@ -2,4 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://bienhys4rpmd" path="res://mods/content/models/sources/motherboard.blend" id="1_qimq5"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_qimq5"]
+size = Vector3(0.75, 0.099853516, 0.49414063)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_weiew"]
+size = Vector3(0.23834229, 0.061462402, 0.09277344)
+
 [node name="motherboard" unique_id=422260544 instance=ExtResource("1_qimq5")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1424127820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.049926758, 0)
+shape = SubResource("BoxShape3D_qimq5")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=2120677727]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.15029907, 0.11367798, -0.2006836)
+shape = SubResource("BoxShape3D_weiew")

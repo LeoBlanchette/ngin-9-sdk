@@ -2,4 +2,26 @@
 
 [ext_resource type="PackedScene" uid="uid://dkn8rylfq62jq" path="res://mods/content/models/sources/desk-fan.blend" id="1_k0bfm"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_k0bfm"]
+size = Vector3(0.37402344, 0.09765625, 0.3380127)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_reg4x"]
+size = Vector3(0.107666016, 0.40011597, 0.12799072)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_5jqrr"]
+height = 0.13269043
+radius = 0.24707031
+
 [node name="desk-fan" unique_id=1143528736 instance=ExtResource("1_k0bfm")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1590617557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.048828125, -0.0067749023)
+shape = SubResource("BoxShape3D_k0bfm")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1805370484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30107117, -0.11178589)
+shape = SubResource("BoxShape3D_reg4x")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=60099088]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.4528171, 0.011657745)
+shape = SubResource("CylinderShape3D_5jqrr")

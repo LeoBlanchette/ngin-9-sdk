@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/tv-remote.blend-cb8b87e42a1ddaa6c843297908b4b
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

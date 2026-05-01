@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/desk-fan.blend-724350998e2c041048dff26b1b41ff
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

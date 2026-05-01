@@ -2,4 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://cqclq5sttybn" path="res://mods/content/models/sources/air-can.blend" id="1_yw0ml"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_yw0ml"]
+height = 0.41845703
+radius = 0.091796875
+
 [node name="air-can" unique_id=1016436023 instance=ExtResource("1_yw0ml")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=304985280]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21020508, 0)
+shape = SubResource("CylinderShape3D_yw0ml")

@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://cxh1lqg13c0e8" path="res://mods/content/models/sources/cell-phone.blend" id="1_j8lp1"]
 
-[node name="cell-phone" unique_id=1976451918 instance=ExtResource("1_j8lp1")]
+[sub_resource type="BoxShape3D" id="BoxShape3D_j8lp1"]
+size = Vector3(0.23657227, 0.14135742, 0.41308594)
+
+[node name="cell-phone" unique_id=1893343435 instance=ExtResource("1_j8lp1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=612448564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07043457, 0)
+shape = SubResource("BoxShape3D_j8lp1")

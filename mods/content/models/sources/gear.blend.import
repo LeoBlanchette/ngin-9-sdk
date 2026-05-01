@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/gear.blend-1fa5c730eec5f784d717b0c533b876b2.s
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

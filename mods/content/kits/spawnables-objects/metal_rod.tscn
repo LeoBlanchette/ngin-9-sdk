@@ -2,4 +2,12 @@
 
 [ext_resource type="PackedScene" uid="uid://b3ygmuvcruw1t" path="res://mods/content/models/sources/metal-rod.blend" id="1_7enwv"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_7enwv"]
+height = 0.98828125
+radius = 0.07080078
+
 [node name="metal-rod" unique_id=975678389 instance=ExtResource("1_7enwv")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=203111288]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+shape = SubResource("CylinderShape3D_7enwv")

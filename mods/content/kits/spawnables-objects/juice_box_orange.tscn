@@ -2,4 +2,18 @@
 
 [ext_resource type="PackedScene" uid="uid://djmpqtgc4xjvy" path="res://mods/content/models/sources/juice-box-orange.blend" id="1_qkqas"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_qkqas"]
+size = Vector3(0.18359375, 0.24804688, 0.111328125)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_trm0h"]
+size = Vector3(0.058288574, 0.17276001, 0.061523438)
+
 [node name="juice-box-orange" unique_id=484160450 instance=ExtResource("1_qkqas")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=624599112]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.12597656, 0)
+shape = SubResource("BoxShape3D_qkqas")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=607350259]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.059906006, 0.34022522, 0.009277344)
+shape = SubResource("BoxShape3D_trm0h")

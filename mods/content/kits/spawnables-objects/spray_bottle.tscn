@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://dglg3utekfk7l" path="res://mods/content/models/sources/spray-bottle.blend" id="1_pcwb4"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_pcwb4"]
+height = 0.33032227
+radius = 0.09667969
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pcwb4"]
+size = Vector3(0.09277344, 0.22634888, 0.20654297)
+
 [node name="spray-bottle" unique_id=603667883 instance=ExtResource("1_pcwb4")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1671891551]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.16467285, 0)
+shape = SubResource("CylinderShape3D_pcwb4")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1358460381]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44554138, -0.013427734)
+shape = SubResource("BoxShape3D_pcwb4")

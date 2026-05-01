@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/microscope.blend-b1a81accb80e21e33eb6a84ca4f1
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/circuit-board.blend-6caefb76cbb21fd56c17046c6
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

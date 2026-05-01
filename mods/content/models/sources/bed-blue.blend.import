@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/bed-blue.blend-4dc9cc30a7158f753b66a1881631a1
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

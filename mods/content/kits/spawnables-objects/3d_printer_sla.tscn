@@ -2,4 +2,11 @@
 
 [ext_resource type="PackedScene" uid="uid://deyr88wftrlvr" path="res://mods/content/models/sources/3d-printer-sla.blend" id="1_qfck1"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_qfck1"]
+size = Vector3(0.7692871, 1.2006226, 0.7772217)
+
 [node name="3d-printer-sla" unique_id=2089687923 instance=ExtResource("1_qfck1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1729216627]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.60531616, -0.0015258789)
+shape = SubResource("BoxShape3D_qfck1")

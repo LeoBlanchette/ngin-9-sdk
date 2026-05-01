@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/battery.blend-b78e3213c6b432401a3635a09ed27a7
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

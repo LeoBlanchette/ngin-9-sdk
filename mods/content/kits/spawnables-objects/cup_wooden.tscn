@@ -2,4 +2,19 @@
 
 [ext_resource type="PackedScene" uid="uid://co05cueothcdx" path="res://mods/content/models/sources/cup-wooden.blend" id="1_67vew"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_67vew"]
+height = 0.23937988
+radius = 0.10253906
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_67vew"]
+size = Vector3(0.05859375, 0.21966553, 0.07788086)
+
 [node name="cup-wooden" unique_id=1824584711 instance=ExtResource("1_67vew")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1757596186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11968994, 0)
+shape = SubResource("CylinderShape3D_67vew")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=966948860]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11758423, -0.13513184)
+shape = SubResource("BoxShape3D_67vew")

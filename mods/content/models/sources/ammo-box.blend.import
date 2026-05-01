@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/ammo-box.blend-a83e6d4ae46963a3d8fb248f28809c
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

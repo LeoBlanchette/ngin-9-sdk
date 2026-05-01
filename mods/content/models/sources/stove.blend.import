@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/stove.blend-64af6b7724f44d96262e1ef3f8ad4667.
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

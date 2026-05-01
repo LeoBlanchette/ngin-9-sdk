@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/metal-bucket.blend-9b4e6803bdc6ac18592ec6fe8d
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

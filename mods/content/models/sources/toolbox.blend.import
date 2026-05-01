@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/toolbox.blend-e10184c4da5ea7dddb63b9b4e486c43
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

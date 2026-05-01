@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/mail-box.blend-97ce35d8f2157e2062fc111a7e365b
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

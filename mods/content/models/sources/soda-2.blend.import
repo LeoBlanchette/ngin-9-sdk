@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/soda-2.blend-2edc6c3c924ab15a723cd1048dbb1103
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="RigidBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true

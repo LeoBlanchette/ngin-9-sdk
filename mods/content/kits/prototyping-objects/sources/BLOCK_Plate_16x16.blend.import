@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/BLOCK_Plate_16x16.blend-0045cb521bfd808858710
 
 [params]
 
-nodes/root_type=""
+nodes/root_type="StaticBody3D"
 nodes/root_name=""
 nodes/root_script=null
 nodes/apply_root_scale=true
