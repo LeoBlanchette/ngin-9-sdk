@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ceoxfmn4tsgs"]
+
+[ext_resource type="PackedScene" uid="uid://cegbvag30enl" path="res://mods/content/models/sources/stone-ax.blend" id="1_r8cfg"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_myxcf"]
+radius = 0.091308594
+height = 1.0600586
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r8cfg"]
+size = Vector3(0.25146484, 0.309021, 0.47265625)
+
+[node name="stone-ax" unique_id=1577420061 instance=ExtResource("1_r8cfg")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1496301548]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.51538086, 0)
+shape = SubResource("CapsuleShape3D_myxcf")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=478121534]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.010009766, 0.89907837, 0.09472656)
+shape = SubResource("BoxShape3D_r8cfg")

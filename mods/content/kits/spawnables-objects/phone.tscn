@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ba432ngiqt1ys"]
+
+[ext_resource type="PackedScene" uid="uid://dce4lavhlbm6h" path="res://mods/content/models/sources/phone.blend" id="1_o6xfu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o6xfu"]
+size = Vector3(0.46533203, 0.4578247, 0.1977539)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_pyum5"]
+size = Vector3(0.1262207, 0.3397522, 0.080322266)
+
+[node name="phone" unique_id=191193329 instance=ExtResource("1_o6xfu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=594967186]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.020751953, 0.2260437, -0.15209961)
+shape = SubResource("BoxShape3D_o6xfu")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=509056689]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.14880371, 0.28507996, -0.01550293)
+shape = SubResource("BoxShape3D_pyum5")

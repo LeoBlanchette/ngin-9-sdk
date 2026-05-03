@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://d1f4f3khqirfh"]
+
+[ext_resource type="PackedScene" uid="uid://dna3o62wjn6vx" path="res://mods/content/models/sources/scissors.blend" id="1_swm2n"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_52dmp"]
+size = Vector3(0.17346191, 0.06726074, 0.3684082)
+
+[node name="scissors" unique_id=1611453690 instance=ExtResource("1_swm2n")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=899142854]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009460449, 0.036193848, -0.13391113)
+shape = SubResource("BoxShape3D_52dmp")

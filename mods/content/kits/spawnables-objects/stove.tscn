@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dkovwyd5io2ea"]
+
+[ext_resource type="PackedScene" uid="uid://cqw02o10xbmn3" path="res://mods/content/models/sources/stove.blend" id="1_vgvki"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vgvki"]
+size = Vector3(1, 1.003479, 1.0164795)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vo4su"]
+size = Vector3(0.82055664, 0.10058594, 0.20759964)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_86e75"]
+size = Vector3(0.99975586, 0.23603249, 0.25699615)
+
+[node name="stove" unique_id=1678620388 instance=ExtResource("1_vgvki")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=527611256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5052185, 0.16021729)
+shape = SubResource("BoxShape3D_vgvki")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=996071691]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7491474, 0.7263851)
+shape = SubResource("BoxShape3D_vo4su")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=900801265]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1310563, -0.21493149)
+shape = SubResource("BoxShape3D_86e75")

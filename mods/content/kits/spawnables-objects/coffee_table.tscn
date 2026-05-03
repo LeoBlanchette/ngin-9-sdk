@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cg8y66vfkx706"]
+
+[ext_resource type="PackedScene" uid="uid://bsb0ejvph4awy" path="res://mods/content/models/sources/coffee-table.blend" id="1_0nn20"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0nn20"]
+size = Vector3(1.607666, 0.16055298, 1.5998535)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_soi7t"]
+size = Vector3(0.16430664, 0.5477905, 0.1640625)
+
+[node name="coffee-table" unique_id=151807152 instance=ExtResource("1_0nn20")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=866811467]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.62590027, 0)
+shape = SubResource("BoxShape3D_0nn20")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=17665068]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7177542, 0.26992798, 0.7177021)
+shape = SubResource("BoxShape3D_soi7t")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=2119218867]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.71754855, 0.26992798, 0.7177021)
+shape = SubResource("BoxShape3D_soi7t")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=2052714374]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7177542, 0.26992798, -0.71560746)
+shape = SubResource("BoxShape3D_soi7t")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=1889619037]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.71754855, 0.26992798, -0.71560746)
+shape = SubResource("BoxShape3D_soi7t")

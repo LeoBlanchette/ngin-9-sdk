@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bjxf8uioj8xfu"]
+
+[ext_resource type="PackedScene" uid="uid://cuwtd1n468p8m" path="res://mods/content/models/sources/soda-2.blend" id="1_h77vl"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_tdi68"]
+height = 0.3972168
+radius = 0.13378906
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_h77vl"]
+height = 0.10076904
+radius = 0.05810547
+
+[node name="soda-2" unique_id=2039437805 instance=ExtResource("1_h77vl")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=474950908]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.20080566, 0)
+shape = SubResource("CylinderShape3D_tdi68")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=2023378121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.45315552, 0)
+shape = SubResource("CylinderShape3D_h77vl")

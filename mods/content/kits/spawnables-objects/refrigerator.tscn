@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bp7pg6dlwj86e"]
+
+[ext_resource type="PackedScene" uid="uid://d1xxxt5mevxkf" path="res://mods/content/models/sources/refrigerator.blend" id="1_5gy5y"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5gy5y"]
+size = Vector3(0.9260254, 2.0029297, 0.9848633)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f4imc"]
+size = Vector3(0.08630371, 1.7976379, 0.05657959)
+
+[node name="refrigerator" unique_id=572544554 instance=ExtResource("1_5gy5y")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=696054754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.99560547, 0.05102539)
+shape = SubResource("BoxShape3D_5gy5y")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=458842808]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.35272217, 1.0075531, 0.57315063)
+shape = SubResource("BoxShape3D_f4imc")

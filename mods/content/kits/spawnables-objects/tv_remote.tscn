@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bbnwj20507xue"]
+
+[ext_resource type="PackedScene" uid="uid://cae4bpjsq6elm" path="res://mods/content/models/sources/tv-remote.blend" id="1_cb0wf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cb0wf"]
+size = Vector3(0.17163086, 0.06689453, 0.42773438)
+
+[node name="tv-remote" unique_id=657548116 instance=ExtResource("1_cb0wf")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1443937330]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.033447266, -0.017578125)
+shape = SubResource("BoxShape3D_cb0wf")

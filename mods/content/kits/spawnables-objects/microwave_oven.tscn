@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dk6slxyo174x7"]
+
+[ext_resource type="PackedScene" uid="uid://bsdhnmgv2ibt3" path="res://mods/content/models/sources/microwave-oven.blend" id="1_bta6e"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bta6e"]
+size = Vector3(1, 0.75024414, 0.75146484)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_iktoh"]
+size = Vector3(0.75, 0.75024414, 0.04736328)
+
+[node name="microwave-oven" unique_id=178053459 instance=ExtResource("1_bta6e")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1495964644]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.38024902, 0.12426758)
+shape = SubResource("BoxShape3D_bta6e")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1739363168]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.125, 0.38024902, 0.5283203)
+shape = SubResource("BoxShape3D_iktoh")

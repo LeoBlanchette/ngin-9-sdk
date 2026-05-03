@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://dhcg0d058rn8l"]
+
+[ext_resource type="PackedScene" uid="uid://c8f8shgnhhm3r" path="res://mods/content/models/sources/rice-pot.blend" id="1_nkvgx"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_nkvgx"]
+height = 0.32304382
+radius = 0.2680664
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_32lsk"]
+height = 0.13959885
+radius = 0.19580078
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_npmal"]
+height = 0.07907677
+radius = 0.31347656
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nkvgx"]
+size = Vector3(0.77734375, 0.099121094, 0.1875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_u2kbt"]
+size = Vector3(0.171875, 0.099121094, 0.07128906)
+
+[node name="rice-pot" unique_id=1534934639 instance=ExtResource("1_nkvgx")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=345027286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.29990387, 0)
+shape = SubResource("CylinderShape3D_nkvgx")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="2" unique_id=1849252413]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0674572, 0)
+shape = SubResource("CylinderShape3D_32lsk")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="3" unique_id=984045593]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.42746067, 0)
+shape = SubResource("CylinderShape3D_npmal")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="4" unique_id=185532439]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3034668, 0)
+shape = SubResource("BoxShape3D_nkvgx")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="5" unique_id=1836316144]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49487305, 0)
+shape = SubResource("BoxShape3D_u2kbt")

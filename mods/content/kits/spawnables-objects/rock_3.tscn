@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://clth0844qgnn1"]
+
+[ext_resource type="PackedScene" uid="uid://cnv6suf4l3c18" path="res://mods/content/models/sources/rock-3.blend" id="1_g2luf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5p1kl"]
+size = Vector3(0.2849121, 0.35437012, 0.2890625)
+
+[node name="rock-3" unique_id=2099448527 instance=ExtResource("1_g2luf")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1848034624]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17913818, -0.00793457)
+shape = SubResource("BoxShape3D_5p1kl")
+debug_fill = false
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1886985497]
+transform = Transform3D(0.49999994, 0.74999994, -0.43301272, -0.86602545, 0.43301266, -0.24999999, 0, 0.5, 0.8660254, 0, 0.17913818, -0.00793457)
+shape = SubResource("BoxShape3D_5p1kl")
+debug_fill = false

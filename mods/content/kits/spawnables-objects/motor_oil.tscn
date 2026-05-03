@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bjvph6p6vyaom"]
+
+[ext_resource type="PackedScene" uid="uid://o2cil6udxk1i" path="res://mods/content/models/sources/motor-oil.blend" id="1_i8bv7"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_th1u3"]
+size = Vector3(0.3515625, 0.51501465, 0.21484375)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i8bv7"]
+size = Vector3(0.07952881, 0.062286377, 0.10253906)
+
+[node name="motor-oil" unique_id=1819107480 instance=ExtResource("1_i8bv7")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1433188472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25897217, 0)
+shape = SubResource("BoxShape3D_th1u3")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=60617881]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.11483765, 0.54826355, 0)
+shape = SubResource("BoxShape3D_i8bv7")

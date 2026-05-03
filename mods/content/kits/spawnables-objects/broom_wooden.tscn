@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c5lv8hyu6fbuq"]
+
+[ext_resource type="PackedScene" uid="uid://w8711kyy8aur" path="res://mods/content/models/sources/broom-wooden.blend" id="1_oy3gn"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_oy3gn"]
+size = Vector3(0.375, 0.31207275, 0.14672852)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r16q6"]
+size = Vector3(0.10253906, 0.9913063, 0.10253906)
+
+[node name="broom-wooden" unique_id=1810431093 instance=ExtResource("1_oy3gn")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=431747307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15341187, 0)
+shape = SubResource("BoxShape3D_oy3gn")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=2096346149]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.80581474, 0)
+shape = SubResource("BoxShape3D_r16q6")

@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://cnux6lixd6kd"]
+
+[ext_resource type="PackedScene" uid="uid://d35kuh46uwvnn" path="res://mods/content/models/sources/molotov-cocktail.blend" id="1_8odr8"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_8odr8"]
+height = 0.35803223
+radius = 0.099609375
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_gin1x"]
+height = 0.14631653
+radius = 0.032226563
+
+[node name="molotov-cocktail" unique_id=1215699426 instance=ExtResource("1_8odr8")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=640826580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.18121338, 0)
+shape = SubResource("CylinderShape3D_8odr8")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1058834384]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.434227, 0)
+shape = SubResource("CylinderShape3D_gin1x")

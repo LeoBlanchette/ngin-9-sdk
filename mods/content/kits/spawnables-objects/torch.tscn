@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c2nuiy5cyo14r"]
+
+[ext_resource type="PackedScene" uid="uid://c2u6fqpap5tyj" path="res://mods/content/models/sources/torch.blend" id="1_5p6vj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5p6vj"]
+size = Vector3(0.13061523, 0.6035156, 0.123046875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eioxv"]
+size = Vector3(0.18579102, 0.20245361, 0.18652344)
+
+[node name="torch" unique_id=1125829907 instance=ExtResource("1_5p6vj")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1128391633]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3076172, 0)
+shape = SubResource("BoxShape3D_5p6vj")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=394862349]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.46170044, 0)
+shape = SubResource("BoxShape3D_eioxv")

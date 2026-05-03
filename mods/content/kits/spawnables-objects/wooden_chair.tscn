@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cv5les8y5ef5g"]
+
+[ext_resource type="PackedScene" uid="uid://2ssflxc3vycn" path="res://mods/content/models/sources/wooden-chair.blend" id="1_2ls34"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2ls34"]
+size = Vector3(0.84472656, 0.13195801, 0.82958984)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_453ir"]
+size = Vector3(0.14221191, 0.5501404, 0.14160156)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1nboo"]
+size = Vector3(0.81274414, 0.9529724, 0.09399414)
+
+[node name="wooden-chair" unique_id=327942782 instance=ExtResource("1_2ls34")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1687245887]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.61224365, 0.08520508)
+shape = SubResource("BoxShape3D_2ls34")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="2" unique_id=426640733]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2834763, 0.27275646, 0.35355267)
+shape = SubResource("BoxShape3D_453ir")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="3" unique_id=545036327]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.283, 0.273, 0.354)
+shape = SubResource("BoxShape3D_453ir")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="4" unique_id=876161951]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.2834763, 0.27275646, -0.20845905)
+shape = SubResource("BoxShape3D_453ir")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." index="5" unique_id=458861724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.283, 0.273, -0.20801172)
+shape = SubResource("BoxShape3D_453ir")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="6" unique_id=271577370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1515045, -0.28259277)
+shape = SubResource("BoxShape3D_1nboo")

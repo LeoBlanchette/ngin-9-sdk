@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://d08k84mmfd4sc"]
+
+[ext_resource type="PackedScene" uid="uid://cuudu01bfts56" path="res://mods/content/models/sources/stick-2.blend" id="1_3ab8b"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_d1ysq"]
+radius = 0.061035156
+height = 1.9978027
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3ab8b"]
+size = Vector3(0.14196777, 0.12591553, 0.09350586)
+
+[node name="stick-2" unique_id=1899475909 instance=ExtResource("1_3ab8b")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=349952863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.00354, 0)
+shape = SubResource("CapsuleShape3D_d1ysq")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=621846043]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.07244873, 1.2112732, 0)
+shape = SubResource("BoxShape3D_3ab8b")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=2059186041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.099701285, 0.4890347, 0)
+shape = SubResource("BoxShape3D_3ab8b")

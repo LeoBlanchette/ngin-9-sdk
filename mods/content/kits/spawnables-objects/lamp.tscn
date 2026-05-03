@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dwfa1fy7s4hpf"]
+
+[ext_resource type="PackedScene" uid="uid://c3lb8xb475hbb" path="res://mods/content/models/sources/lamp.blend" id="1_o0j4s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o0j4s"]
+size = Vector3(0.5029297, 0.07373047, 0.49902344)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8w0cp"]
+size = Vector3(0.10546875, 1.4126282, 0.111328125)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ws4ot"]
+size = Vector3(0.560791, 0.5329056, 0.5488281)
+
+[node name="lamp" unique_id=1384317161 instance=ExtResource("1_o0j4s")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=622477840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.043701172, 0)
+shape = SubResource("BoxShape3D_o0j4s")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1311514492]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7877994, 0)
+shape = SubResource("BoxShape3D_8w0cp")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1643585014]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.7714686, 0)
+shape = SubResource("BoxShape3D_ws4ot")

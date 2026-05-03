@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://d4a158m8tjf6a"]
+
+[ext_resource type="PackedScene" uid="uid://dyxa1ngqvcmnk" path="res://mods/content/models/sources/bowl.blend" id="1_j85sb"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ufu4d"]
+height = 0.20758057
+radius = 0.21191406
+
+[node name="bowl" unique_id=153613241 instance=ExtResource("1_j85sb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=566869690]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.10324097, 0)
+shape = SubResource("CylinderShape3D_ufu4d")

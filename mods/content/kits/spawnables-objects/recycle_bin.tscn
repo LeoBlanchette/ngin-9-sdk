@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c376ehvthgmjy"]
+
+[ext_resource type="PackedScene" uid="uid://cb7ej5ihr36an" path="res://mods/content/models/sources/recycle-bin.blend" id="1_lx45o"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lx45o"]
+size = Vector3(0.6447754, 1.1776733, 0.6347656)
+
+[node name="recycle-bin" unique_id=1992123037 instance=ExtResource("1_lx45o")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=322042762]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.58877563, 0)
+shape = SubResource("BoxShape3D_lx45o")

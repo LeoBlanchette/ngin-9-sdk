@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://camn7aj04t6an"]
+
+[ext_resource type="PackedScene" uid="uid://dxdwem8s1leh2" path="res://mods/content/models/sources/watering-can.blend" id="1_i1f1i"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ul6gk"]
+size = Vector3(0.34613037, 0.35205078, 0.34936523)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i1f1i"]
+size = Vector3(0.32595062, 0.24829102, 0.064208984)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5hp77"]
+size = Vector3(0.049491882, 0.17004395, 0.17382813)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k57j4"]
+size = Vector3(0.049491882, 0.26275635, 0.05078125)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vgmaf"]
+size = Vector3(0.048056602, 0.16475296, 0.05078125)
+
+[node name="watering-can" unique_id=2050182502 instance=ExtResource("1_i1f1i")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=644693309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0016174316, 0.1730957, 0)
+shape = SubResource("BoxShape3D_ul6gk")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1788425607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06410599, 0.3265381, 0)
+shape = SubResource("BoxShape3D_i1f1i")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1016015600]
+transform = Transform3D(0.9396926, -0.34202012, 0, 0.34202012, 0.9396926, 0, 0, 0, 1, -0.38326293, 0.4562335, 0)
+shape = SubResource("BoxShape3D_5hp77")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=797312319]
+transform = Transform3D(0.85480326, -0.51895225, 0, 0.51895225, 0.85480326, 0, 0, 0, 1, -0.20630805, 0.34275374, 0)
+shape = SubResource("BoxShape3D_k57j4")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=621250025]
+transform = Transform3D(0.4869758, -0.87341547, 0, 0.87341547, 0.4869758, 0, 0, 0, 1, -0.33121377, 0.4789905, 0)
+shape = SubResource("BoxShape3D_vgmaf")

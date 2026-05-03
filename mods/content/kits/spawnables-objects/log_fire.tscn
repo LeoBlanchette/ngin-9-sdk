@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d2fbrd4dnocl2"]
+
+[ext_resource type="PackedScene" uid="uid://w7t5a3yqtyri" path="res://mods/content/models/sources/log-fire.blend" id="1_jff5y"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_jff5y"]
+height = 0.17468262
+radius = 0.37402344
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jff5y"]
+size = Vector3(0.39868164, 0.24261475, 0.27172852)
+
+[node name="log-fire" unique_id=2115743739 instance=ExtResource("1_jff5y")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=795327506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08929443, 0)
+shape = SubResource("CylinderShape3D_jff5y")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=794898784]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.26486206, -0.030273438)
+shape = SubResource("BoxShape3D_jff5y")

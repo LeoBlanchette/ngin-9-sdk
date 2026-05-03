@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://b73sy2v3gympn"]
+
+[ext_resource type="PackedScene" uid="uid://sjr8epm6vq52" path="res://mods/content/models/sources/kitchen-knife.blend" id="1_a6ak1"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_a6ak1"]
+size = Vector3(0.08453369, 0.20983887, 0.08178711)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lw7ro"]
+size = Vector3(0.11843872, 0.5131531, 0.02368164)
+
+[node name="kitchen-knife" unique_id=1584147056 instance=ExtResource("1_a6ak1")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2025962749]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0018005371, 0.10662842, 0)
+shape = SubResource("BoxShape3D_a6ak1")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1383775602]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.015151978, 0.4716339, 0)
+shape = SubResource("BoxShape3D_lw7ro")

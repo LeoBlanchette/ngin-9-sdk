@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cfwojse72j2ax"]
+
+[ext_resource type="PackedScene" uid="uid://c2xv8p6e3chqn" path="res://mods/content/models/sources/and-the-kitchen-sink.blend" id="1_al626"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_al626"]
+size = Vector3(1, 0.9985657, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_huc68"]
+size = Vector3(0.08996582, 0.4205017, 0.33447266)
+
+[node name="and-the-kitchen-sink" unique_id=1787336394 instance=ExtResource("1_al626")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=956165677]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.50083923, 0)
+shape = SubResource("BoxShape3D_al626")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1241018052]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0040283203, 1.2117462, -0.19213867)
+shape = SubResource("BoxShape3D_huc68")

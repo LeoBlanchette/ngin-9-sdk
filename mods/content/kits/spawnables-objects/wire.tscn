@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://du2tarnpidpor"]
+
+[ext_resource type="PackedScene" uid="uid://dmfvpn0sdyvt3" path="res://mods/content/models/sources/wire.blend" id="1_3fnc4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3fnc4"]
+size = Vector3(0.22937012, 0.09039307, 0.44091797)
+
+[node name="wire" unique_id=2075203399 instance=ExtResource("1_3fnc4")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=570640393]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.009338379, 0.046783447, 0.0017089844)
+shape = SubResource("BoxShape3D_3fnc4")

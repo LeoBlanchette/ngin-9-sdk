@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bvrvg6f5ef8dj"]
+
+[ext_resource type="PackedScene" uid="uid://nfx3xxr2phob" path="res://mods/content/models/sources/panda-co-cooler.blend" id="1_lxhi6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_76btq"]
+size = Vector3(0.6364746, 0.49902344, 0.42382813)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e5yg8"]
+size = Vector3(0.7932129, 0.46679688, 0.13232422)
+
+[node name="panda-co-cooler" unique_id=956388540 instance=ExtResource("1_lxhi6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2135620102]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25048828, 0)
+shape = SubResource("BoxShape3D_76btq")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1492507457]
+transform = Transform3D(1, 0, 0, 0, 0.34202015, 0.9396926, 0, -0.9396926, 0.34202015, 0, 0.4104954, -0.17024839)
+shape = SubResource("BoxShape3D_e5yg8")

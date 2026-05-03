@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://d3u0ptyh8yejy"]
+
+[ext_resource type="PackedScene" uid="uid://2k6rsp67xtg5" path="res://mods/content/models/sources/shepherds-crook.blend" id="1_b4clt"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_8hfa4"]
+radius = 0.06298828
+height = 1.515686
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_b4clt"]
+size = Vector3(0.12792969, 0.36083984, 0.44573975)
+
+[node name="shepherds-crook" unique_id=913168888 instance=ExtResource("1_b4clt")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=517870541]
+transform = Transform3D(1, 0, 0, 0, 0.99899656, 0.044787616, 0, -0.044787616, 0.99899656, 0, 0.7490942, -0.16059321)
+shape = SubResource("CapsuleShape3D_8hfa4")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=556679550]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4924316, -0.014984131)
+shape = SubResource("BoxShape3D_b4clt")

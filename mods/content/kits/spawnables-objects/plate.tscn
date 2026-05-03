@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://gd1yjrpkfjcj"]
+
+[ext_resource type="PackedScene" uid="uid://bjb01ru4bywax" path="res://mods/content/models/sources/plate.blend" id="1_8iaca"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_g6idr"]
+height = 0.084350586
+radius = 0.25927734
+
+[node name="plate" unique_id=1184720947 instance=ExtResource("1_8iaca")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=102945370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.10089111, 0)
+shape = SubResource("CylinderShape3D_g6idr")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=852721499]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.039550334, 0)
+shape = SubResource("CylinderShape3D_g6idr")

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ys6khu5cmy27"]
+
+[ext_resource type="PackedScene" uid="uid://oe8sy6hux8" path="res://mods/content/models/sources/metal-scrap.blend" id="1_8uckq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8uckq"]
+size = Vector3(0.23217773, 0.042419434, 0.18945313)
+
+[node name="metal-scrap" unique_id=645892414 instance=ExtResource("1_8uckq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=75228905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.05215454, 0)
+shape = SubResource("BoxShape3D_8uckq")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1624843085]
+transform = Transform3D(0.83944917, 0, -0.5434382, 0, 1, 0, 0.5434382, 0, 0.83944917, 0, 0.020904541, 0)
+shape = SubResource("BoxShape3D_8uckq")

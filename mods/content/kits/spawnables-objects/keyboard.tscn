@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://b1j3rrr01bf1x"]
+
+[ext_resource type="PackedScene" uid="uid://dof0g7j0sbbvu" path="res://mods/content/models/sources/keyboard.blend" id="1_654ci"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_654ci"]
+size = Vector3(0.61743164, 0.11895752, 0.37597656)
+
+[node name="keyboard" unique_id=1818055524 instance=ExtResource("1_654ci")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=326080754]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.027252197, 0.00390625)
+shape = SubResource("BoxShape3D_654ci")

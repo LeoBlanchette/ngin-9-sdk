@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bker0y678a73h"]
+
+[ext_resource type="PackedScene" uid="uid://qec5wcixjml2" path="res://mods/content/models/sources/book-shelf-white.blend" id="1_ae21j"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1w1dr"]
+size = Vector3(1.453125, 0.048461914, 0.73046875)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f732f"]
+size = Vector3(1.453125, 0.07294083, 0.6467285)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s1k6l"]
+size = Vector3(1.453125, 0.048677444, 0.6467285)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dlv5v"]
+size = Vector3(0.07249451, 1.199646, 0.7363281)
+
+[node name="book-shelf-white" unique_id=1632797845 instance=ExtResource("1_ae21j")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=787846738]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.018249512, 0.10644531)
+shape = SubResource("BoxShape3D_1w1dr")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1807863613]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40063673, 0.14831543)
+shape = SubResource("BoxShape3D_f732f")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1761095368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8016377, 0.14831543)
+shape = SubResource("BoxShape3D_f732f")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=641793535]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1754026, 0.14831543)
+shape = SubResource("BoxShape3D_s1k6l")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=1412345474]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.76511383, 0.5992737, 0.11230469)
+shape = SubResource("BoxShape3D_dlv5v")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." index="6" unique_id=889024281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.765, 0.599, 0.112)
+shape = SubResource("BoxShape3D_dlv5v")

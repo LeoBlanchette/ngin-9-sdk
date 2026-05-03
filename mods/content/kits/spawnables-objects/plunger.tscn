@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dvwlxn50kep2y"]
+
+[ext_resource type="PackedScene" uid="uid://c2epok4b7tc0v" path="res://mods/content/models/sources/plunger.blend" id="1_gjpog"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_gjpog"]
+height = 0.30291748
+radius = 0.20751953
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_gjpog"]
+radius = 0.07519531
+height = 1.2858887
+
+[node name="plunger" unique_id=277318714 instance=ExtResource("1_gjpog")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1691432407]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15158081, 0)
+shape = SubResource("CylinderShape3D_gjpog")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=536051643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6739502, 0)
+shape = SubResource("CapsuleShape3D_gjpog")

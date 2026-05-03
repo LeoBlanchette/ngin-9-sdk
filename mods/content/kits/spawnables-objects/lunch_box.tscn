@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dctsjjt33rkn4"]
+
+[ext_resource type="PackedScene" uid="uid://nv8cpwc248p0" path="res://mods/content/models/sources/lunch-box.blend" id="1_ivd1v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ivd1v"]
+size = Vector3(0.56152344, 0.29370117, 0.42736816)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6dg7s"]
+size = Vector3(0.26538086, 0.11035156, 0.10342407)
+
+[node name="lunch-box" unique_id=131160264 instance=ExtResource("1_ivd1v")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=456784797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14538574, 0.0017700195)
+shape = SubResource("BoxShape3D_ivd1v")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1710646702]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14538574, 0.26353455)
+shape = SubResource("BoxShape3D_6dg7s")

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bg13ka6sofmeo"]
+
+[ext_resource type="PackedScene" uid="uid://b0e1q11nd77xo" path="res://mods/content/models/sources/mail-box.blend" id="1_tc81s"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tc81s"]
+size = Vector3(0.15063477, 0.7211914, 0.14160156)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tuqeq"]
+size = Vector3(0.38378906, 0.4977417, 0.74645996)
+
+[node name="mail-box" unique_id=2095012107 instance=ExtResource("1_tc81s")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=273323304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.36694336, 0)
+shape = SubResource("BoxShape3D_tc81s")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1801427109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.96255493, 0.051940918)
+shape = SubResource("BoxShape3D_tuqeq")

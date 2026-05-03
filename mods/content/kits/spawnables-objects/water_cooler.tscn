@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://8shtcdooony8"]
+
+[ext_resource type="PackedScene" uid="uid://b6rdsx0py41ue" path="res://mods/content/models/sources/water-cooler.blend" id="1_q6gv6"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_q6gv6"]
+height = 0.6746826
+radius = 0.26708984
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q6gv6"]
+size = Vector3(0.53686523, 0.8178711, 0.5349121)
+
+[node name="water-cooler" unique_id=1330718011 instance=ExtResource("1_q6gv6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1302816494]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1484985, 0)
+shape = SubResource("CylinderShape3D_q6gv6")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=473824119]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40454102, -0.00012207031)
+shape = SubResource("BoxShape3D_q6gv6")

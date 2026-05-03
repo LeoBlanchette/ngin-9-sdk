@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://clgc24ghfi7wq"]
+
+[ext_resource type="PackedScene" uid="uid://cfrtqs3igtlid" path="res://mods/content/models/sources/arm-chair-red.blend" id="1_idbwp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_idbwp"]
+size = Vector3(0.7229004, 0.4017334, 0.75219727)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tdfn1"]
+size = Vector3(0.7229004, 0.49449158, 0.17789459)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cs3jb"]
+size = Vector3(0.13623047, 0.7102051, 0.6693115)
+
+[node name="arm-chair-red" unique_id=1280391927 instance=ExtResource("1_idbwp")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=111978077]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.20196533, 0.017944336)
+shape = SubResource("BoxShape3D_idbwp")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="2" unique_id=2138775130]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7496414, -0.40987778)
+shape = SubResource("BoxShape3D_tdfn1")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="3" unique_id=1005830668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.43188477, 0.35461426, -0.02178955)
+shape = SubResource("BoxShape3D_cs3jb")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="4" unique_id=1032829336]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.432, 0.355, -0.022)
+shape = SubResource("BoxShape3D_cs3jb")

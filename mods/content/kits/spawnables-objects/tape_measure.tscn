@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cyeqlm6a6cmfi"]
+
+[ext_resource type="PackedScene" uid="uid://rswdeqgptsjq" path="res://mods/content/models/sources/tape-measure.blend" id="1_mskyl"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mskyl"]
+height = 0.1015625
+radius = 0.09326172
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mskyl"]
+size = Vector3(0.21582031, 0.026306152, 0.072021484)
+
+[node name="tape-measure" unique_id=1911078936 instance=ExtResource("1_mskyl")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1279285261]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.09457874, 4.1341677e-09)
+shape = SubResource("CylinderShape3D_mskyl")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=547926085]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.09033203, 0.013092041, 0)
+shape = SubResource("BoxShape3D_mskyl")

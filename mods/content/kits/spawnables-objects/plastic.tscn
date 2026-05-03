@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dpsslninwe1js"]
+
+[ext_resource type="PackedScene" uid="uid://ksswipqbejsr" path="res://mods/content/models/sources/plastic.blend" id="1_4dur0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wwenx"]
+size = Vector3(0.49804688, 0.06213379, 0.31082153)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gcxxo"]
+size = Vector3(0.3203125, 0.06213379, 0.31082153)
+
+[node name="plastic" unique_id=1877752073 instance=ExtResource("1_4dur0")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1164111527]
+transform = Transform3D(0.8675311, 0, -0.49738282, 0, 1, 0, 0.49738282, 0, 0.8675311, -0.0012240186, 0.02935791, -0.051811438)
+shape = SubResource("BoxShape3D_wwenx")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1480128005]
+transform = Transform3D(0.96523577, 0, 0.26138055, 0, 1, 0, -0.26138055, 0, 0.96523577, 0.08455377, 0.0848999, -0.075039595)
+shape = SubResource("BoxShape3D_gcxxo")

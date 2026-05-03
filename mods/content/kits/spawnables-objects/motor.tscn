@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d2r1ovunp5qul"]
+
+[ext_resource type="PackedScene" uid="uid://cywjb5wjsf1r0" path="res://mods/content/models/sources/motor.blend" id="1_4jpi0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5eg01"]
+size = Vector3(0.13256836, 0.16259766, 0.140625)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fg4nr"]
+size = Vector3(0.037109375, 0.076171875, 0.032958984)
+
+[node name="motor" unique_id=1302984956 instance=ExtResource("1_4jpi0")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2096841582]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.028564453, 0)
+shape = SubResource("BoxShape3D_5eg01")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1566693889]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.14941406, 0)
+shape = SubResource("BoxShape3D_fg4nr")

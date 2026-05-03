@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bwrehr406w3we"]
+
+[ext_resource type="PackedScene" uid="uid://c3fk4q2o3xa7s" path="res://mods/content/models/sources/stone-knife.blend" id="1_y0k2l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qkcbd"]
+size = Vector3(0.17565918, 0.39718628, 0.084472656)
+
+[node name="stone-knife" unique_id=1714381723 instance=ExtResource("1_y0k2l")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1083765133]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0067749023, 0.19581604, -0.02758789)
+shape = SubResource("BoxShape3D_qkcbd")

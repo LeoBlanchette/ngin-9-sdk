@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://draxsr00hrebt"]
+
+[ext_resource type="PackedScene" uid="uid://b4y41e1hqc665" path="res://mods/content/models/sources/mouse.blend" id="1_mdwmp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qh5se"]
+size = Vector3(0.19702148, 0.10449219, 0.2998047)
+
+[node name="mouse" unique_id=1586611320 instance=ExtResource("1_mdwmp")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1024951307]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.052246094, 0)
+shape = SubResource("BoxShape3D_qh5se")

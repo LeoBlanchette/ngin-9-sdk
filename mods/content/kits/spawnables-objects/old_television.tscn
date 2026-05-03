@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://bq8g01pfugkv3"]
+
+[ext_resource type="PackedScene" uid="uid://cny6xic2t6tx" path="res://mods/content/models/sources/old-television.blend" id="1_7bf0m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7bf0m"]
+size = Vector3(1, 1.0014648, 0.833374)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xd18d"]
+size = Vector3(0.20227051, 0.19851685, 0.19726563)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4sgt7"]
+size = Vector3(0.049072266, 0.52746964, 0.047851563)
+
+[node name="old-television" unique_id=982472395 instance=ExtResource("1_7bf0m")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1253691488]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6994629, 0.1383667)
+shape = SubResource("BoxShape3D_7bf0m")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1738282820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.39886475, 0.099105835, 0.4013672)
+shape = SubResource("BoxShape3D_xd18d")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=2030296472]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.399, 0.099, 0.401)
+shape = SubResource("BoxShape3D_xd18d")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=966939914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.099, -0.10015416)
+shape = SubResource("BoxShape3D_xd18d")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=283949969]
+transform = Transform3D(0.92140937, -0.38859332, 0, 0.38859332, 0.92140937, 0, 0, 0, 1, -0.12749721, 1.4247036, 0.26781666)
+shape = SubResource("BoxShape3D_4sgt7")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." index="6" unique_id=352055879]
+transform = Transform3D(0.6807848, 0.73248345, 0, -0.73248345, 0.6807848, 0, 0, 0, 1, 0.20734125, 1.364847, 0.26781666)
+shape = SubResource("BoxShape3D_4sgt7")

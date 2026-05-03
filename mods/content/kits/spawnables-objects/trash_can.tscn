@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dtafmbmgfq2gx"]
+
+[ext_resource type="PackedScene" uid="uid://kiek75scwj3v" path="res://mods/content/models/sources/trash-can.blend" id="1_g5ash"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_g5ash"]
+height = 0.8372803
+radius = 0.2861328
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_jo270"]
+height = 0.091278076
+radius = 0.3232422
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hjkmn"]
+size = Vector3(0.2626953, 0.08984375, 0.13867188)
+
+[node name="trash-can" unique_id=255564103 instance=ExtResource("1_g5ash")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=599178735]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.41229248, 0)
+shape = SubResource("CylinderShape3D_g5ash")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=218322375]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.87641907, 0)
+shape = SubResource("CylinderShape3D_jo270")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=637966964]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.95996094, 0)
+shape = SubResource("BoxShape3D_hjkmn")

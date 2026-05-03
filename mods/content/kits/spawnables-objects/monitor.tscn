@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dgdeujpl8pdms"]
+
+[ext_resource type="PackedScene" uid="uid://dbnmvytmiceq0" path="res://mods/content/models/sources/monitor.blend" id="1_cd4tq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jglt5"]
+size = Vector3(0.6035156, 0.077697754, 0.6142578)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cd4tq"]
+size = Vector3(1.0585938, 0.64792633, 0.29516602)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ii1rh"]
+size = Vector3(0.17797852, 0.27239704, 0.19628906)
+
+[node name="monitor" unique_id=1338554621 instance=ExtResource("1_cd4tq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=628691470]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04067993, 0)
+shape = SubResource("BoxShape3D_jglt5")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=56300309]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.6269951, -0.020385742)
+shape = SubResource("BoxShape3D_cd4tq")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1190693587]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21876001, -0.020385742)
+shape = SubResource("BoxShape3D_ii1rh")

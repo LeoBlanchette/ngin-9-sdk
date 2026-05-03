@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://t3pbyew37bul"]
+
+[ext_resource type="PackedScene" uid="uid://chlfvhet1hdw2" path="res://mods/content/models/sources/screw-driver.blend" id="1_7hs1m"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_7hs1m"]
+height = 0.7944336
+radius = 0.05419922
+
+[node name="screw-driver" unique_id=1728476912 instance=ExtResource("1_7hs1m")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=612506511]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.39575195, 0)
+shape = SubResource("CylinderShape3D_7hs1m")

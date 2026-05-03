@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dhtbgnfnxmxmm"]
+
+[ext_resource type="PackedScene" uid="uid://kxtb5ywtwiu4" path="res://mods/content/models/sources/toaster.blend" id="1_e0hyk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e0hyk"]
+size = Vector3(0.67871094, 0.5, 0.4111328)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6cslu"]
+size = Vector3(0.05822754, 0.10222626, 0.10644531)
+
+[node name="toaster" unique_id=1084204718 instance=ExtResource("1_e0hyk")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1330613679]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25, 0)
+shape = SubResource("BoxShape3D_e0hyk")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=75203529]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3751831, 0.35612106, 0)
+shape = SubResource("BoxShape3D_6cslu")

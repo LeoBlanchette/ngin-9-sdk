@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://01qt0vugx0we"]
+
+[ext_resource type="PackedScene" uid="uid://biqv0majvqdmu" path="res://mods/content/models/sources/vacuum-cleaner.blend" id="1_drnga"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8lw7i"]
+size = Vector3(0.5751953, 0.122558594, 0.5697632)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_drnga"]
+height = 0.06329346
+radius = 0.09082031
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_drnga"]
+size = Vector3(0.28686523, 0.7050171, 0.37524414)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1fuea"]
+size = Vector3(0.09082031, 0.5283432, 0.08850098)
+
+[node name="vacuum-cleaner" unique_id=684246857 instance=ExtResource("1_drnga")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=673933608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.09301758, 0.16030884)
+shape = SubResource("BoxShape3D_8lw7i")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1113533949]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, 0.3173828, 0.08853263, -0.0448898)
+shape = SubResource("CylinderShape3D_drnga")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=856602515]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.317, 0.089, -0.045)
+shape = SubResource("CylinderShape3D_drnga")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=665264392]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5118103, 0.061157227)
+shape = SubResource("BoxShape3D_drnga")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=1358488029]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1332588, -0.082214355)
+shape = SubResource("BoxShape3D_1fuea")

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://nash3qpi4hmy"]
+
+[ext_resource type="PackedScene" uid="uid://donfk5c3dmhix" path="res://mods/content/models/sources/drier.blend" id="1_hte0l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_mnypw"]
+size = Vector3(1, 1, 1.1000977)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_hte0l"]
+height = 0.057739258
+radius = 0.3930664
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hte0l"]
+size = Vector3(1, 0.19677734, 0.25830078)
+
+[node name="drier" unique_id=171905473 instance=ExtResource("1_hte0l")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1137954387]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0.050048828)
+shape = SubResource("BoxShape3D_mnypw")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1766922836]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0.48995262, 0.6304321)
+shape = SubResource("CylinderShape3D_hte0l")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1440603207]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1037598, -0.3708496)
+shape = SubResource("BoxShape3D_hte0l")

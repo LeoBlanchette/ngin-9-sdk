@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dyhkfaa74fi33"]
+
+[ext_resource type="PackedScene" uid="uid://dnnd3abrnfc3k" path="res://mods/content/models/sources/glass.blend" id="1_yohtq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2xy48"]
+size = Vector3(0.3734131, 0.076416016, 0.2609291)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qivyb"]
+size = Vector3(0.33390808, 0.049926758, 0.2609291)
+
+[node name="glass" unique_id=595229471 instance=ExtResource("1_yohtq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1618809564]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.022155762, 0.036499023, 0.0033168793)
+shape = SubResource("BoxShape3D_2xy48")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=438502356]
+transform = Transform3D(0.82583266, 0, -0.5639153, 0, 1, 0, 0.5639153, 0, 0.82583266, 0.00491101, 0.049743652, -0.008458604)
+shape = SubResource("BoxShape3D_qivyb")

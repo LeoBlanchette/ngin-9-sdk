@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://g8fulp3n0cn3"]
+
+[ext_resource type="PackedScene" uid="uid://dfraqc5xlcy1i" path="res://mods/content/models/sources/cheeze-grater.blend" id="1_wwuxu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wwuxu"]
+size = Vector3(0.31860352, 0.48309326, 0.3154297)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_farqb"]
+size = Vector3(0.1640625, 0.12117767, 0.06542969)
+
+[node name="cheeze-grater" unique_id=1062230065 instance=ExtResource("1_wwuxu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=10292597]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24002075, 0)
+shape = SubResource("BoxShape3D_wwuxu")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=543298833]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.54076004, 0)
+shape = SubResource("BoxShape3D_farqb")

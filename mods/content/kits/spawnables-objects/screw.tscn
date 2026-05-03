@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://4ychraw5qhbv"]
+
+[ext_resource type="PackedScene" uid="uid://s4ompjajbnif" path="res://mods/content/models/sources/screw.blend" id="1_8s2c6"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8s2c6"]
+size = Vector3(0.1, 0.15302734, 0.1)
+
+[node name="screw" unique_id=1692087632 instance=ExtResource("1_8s2c6")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=659843352]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.07340393, 0)
+shape = SubResource("BoxShape3D_8s2c6")

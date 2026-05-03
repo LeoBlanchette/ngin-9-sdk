@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://c2nfaagfj6vtg"]
+
+[ext_resource type="PackedScene" uid="uid://bb0wyio0h6282" path="res://mods/content/models/sources/propane-tank.blend" id="1_0brpt"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ksqq3"]
+height = 0.59484863
+radius = 0.3203125
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0brpt"]
+height = 0.18684387
+radius = 0.26708984
+
+[node name="propane-tank" unique_id=919907427 instance=ExtResource("1_0brpt")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=4931437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30267334, 0)
+shape = SubResource("CylinderShape3D_ksqq3")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=669346623]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.70583344, 0)
+shape = SubResource("CylinderShape3D_0brpt")

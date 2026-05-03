@@ -1,0 +1,49 @@
+[gd_scene format=3 uid="uid://c2b1my334pfaa"]
+
+[ext_resource type="PackedScene" uid="uid://b16edccka5b5f" path="res://mods/content/models/sources/patio-chair.blend" id="1_ymcqw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_fkf3n"]
+size = Vector3(0.11187744, 0.59716797, 0.107177734)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ymcqw"]
+size = Vector3(0.104278564, 0.08111572, 0.21899414)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0k5xb"]
+size = Vector3(0.7519531, 0.08850098, 0.5957031)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3151n"]
+size = Vector3(0.56225586, 0.08850098, 0.9260254)
+
+[node name="patio-chair" unique_id=1611948912 instance=ExtResource("1_ymcqw")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1990163343]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33901978, 0.29907227, -0.3404541)
+shape = SubResource("BoxShape3D_fkf3n")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=511209105]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33901978, 0.29907227, 0.17187274)
+shape = SubResource("BoxShape3D_fkf3n")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1632956968]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.339, 0.29907227, -0.3404541)
+shape = SubResource("BoxShape3D_fkf3n")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=859167961]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.339, 0.29907227, 0.17187274)
+shape = SubResource("BoxShape3D_fkf3n")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=334028863]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.33988953, 0.54159546, -0.084350586)
+shape = SubResource("BoxShape3D_ymcqw")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." index="6" unique_id=1741696139]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.34, 0.542, -0.084)
+shape = SubResource("BoxShape3D_ymcqw")
+
+[node name="CollisionShape3D7" type="CollisionShape3D" parent="." index="7" unique_id=1451329225]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34320068, -0.080078125)
+shape = SubResource("BoxShape3D_0k5xb")
+
+[node name="CollisionShape3D8" type="CollisionShape3D" parent="." index="8" unique_id=143341434]
+transform = Transform3D(1, 0, 0, 0, -0.2550915, 0.9669169, 0, -0.9669169, -0.2550915, 0, 0.80291885, -0.42406148)
+shape = SubResource("BoxShape3D_3151n")

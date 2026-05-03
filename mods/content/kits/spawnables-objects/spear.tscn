@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bow7usounl81w"]
+
+[ext_resource type="PackedScene" uid="uid://b4cutqln8bvic" path="res://mods/content/models/sources/spear.blend" id="1_hlsfs"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_snreo"]
+radius = 0.05029297
+height = 2.1518555
+
+[node name="spear" unique_id=730145790 instance=ExtResource("1_hlsfs")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2144127804]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0861816, 0)
+shape = SubResource("CapsuleShape3D_snreo")

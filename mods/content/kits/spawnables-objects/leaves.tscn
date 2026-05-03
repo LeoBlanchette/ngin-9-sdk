@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bf7pfrh2e4ur2"]
+
+[ext_resource type="PackedScene" uid="uid://b4ftcqi7jh66y" path="res://mods/content/models/sources/leaves.blend" id="1_a6y2t"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p68bb"]
+size = Vector3(0.46679688, 0.068481445, 0.2524643)
+
+[node name="leaves" unique_id=909421853 instance=ExtResource("1_a6y2t")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=28692069]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.04437256, 0.017993927)
+shape = SubResource("BoxShape3D_p68bb")

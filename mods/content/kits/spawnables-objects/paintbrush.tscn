@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cguf7bra12ic7"]
+
+[ext_resource type="PackedScene" uid="uid://dysgx4utvoht0" path="res://mods/content/models/sources/paintbrush.blend" id="1_q0oos"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_q0oos"]
+size = Vector3(0.26586914, 0.34570313, 0.12207031)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_250pe"]
+size = Vector3(0.11035156, 0.12963867, 0.052734375)
+
+[node name="paintbrush" unique_id=1962665954 instance=ExtResource("1_q0oos")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1716770797]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30566406, 0)
+shape = SubResource("BoxShape3D_q0oos")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=540450929]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.06628418, 0)
+shape = SubResource("BoxShape3D_250pe")

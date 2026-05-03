@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://cjf4w0uny0h63"]
+
+[ext_resource type="PackedScene" uid="uid://bk3opr213tnhy" path="res://mods/content/models/sources/dishwasher.blend" id="1_i40rw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i40rw"]
+size = Vector3(1, 0.9003906, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_basur"]
+size = Vector3(0.9140625, 0.64172363, 0.06225586)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_23sjc"]
+size = Vector3(0.44506836, 0.082611084, 0.07745361)
+
+[node name="dishwasher" unique_id=1568472254 instance=ExtResource("1_i40rw")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=143192495]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.43613282, 0)
+shape = SubResource("BoxShape3D_i40rw")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=826987756]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30679932, 0.53186035)
+shape = SubResource("BoxShape3D_basur")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=2078746162]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.48314515, 0.6038513)
+shape = SubResource("BoxShape3D_23sjc")

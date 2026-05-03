@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://n8frwqe4teyc"]
+
+[ext_resource type="PackedScene" uid="uid://gw087hha0kmr" path="res://mods/content/models/sources/telescope.blend" id="1_d10ff"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_d10ff"]
+height = 1.5183105
+radius = 0.13964844
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_d10ff"]
+radius = 0.049804688
+height = 1.0804443
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_2l122"]
+radius = 0.076171875
+height = 0.6171875
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d10ff"]
+size = Vector3(0.53149414, 0.053344727, 0.6188965)
+
+[node name="telescope" unique_id=1380127526 instance=ExtResource("1_d10ff")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1797689307]
+transform = Transform3D(1, 0, 0, 0, 0.57357645, -0.81915206, 0, 0.81915206, 0.57357645, 0, 1.5485773, -0.044897377)
+shape = SubResource("CylinderShape3D_d10ff")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1273553818]
+transform = Transform3D(1, 0, 0, 0, 0.90630776, 0.42261827, 0, -0.42261827, 0.90630776, 0, 0.50100535, 0.36499763)
+shape = SubResource("CapsuleShape3D_d10ff")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=801106170]
+transform = Transform3D(-0.9909629, -0.06545729, 0.117080554, -0.02086322, 0.937441, 0.34751862, -0.13250387, 0.34193534, -0.93033487, 0.19633698, 0.50100535, -0.20870233)
+shape = SubResource("CapsuleShape3D_d10ff")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=366731723]
+transform = Transform3D(-0.9849494, 0.059673168, 0.16221452, 0.110982925, 0.9378269, 0.32888216, -0.13250388, 0.3419353, -0.93033487, -0.19140649, 0.50100535, -0.20870233)
+shape = SubResource("CapsuleShape3D_d10ff")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=973914724]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2841797, 0)
+shape = SubResource("CapsuleShape3D_2l122")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." index="6" unique_id=16406859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.54852295, 0.059936523)
+shape = SubResource("BoxShape3D_d10ff")

@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://byex2lj1kv2ff"]
+
+[ext_resource type="PackedScene" uid="uid://clxmtpyph87cl" path="res://mods/content/models/sources/stone-arrow.blend" id="1_jqso3"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_3nyrk"]
+radius = 0.028320313
+height = 0.685791
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jqso3"]
+size = Vector3(0.059887696, 0.058917236, 0.03149414)
+
+[node name="stone-arrow" unique_id=1509620704 instance=ExtResource("1_jqso3")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=91798179]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34802246, 0)
+shape = SubResource("CapsuleShape3D_3nyrk")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=901723500]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.020056153, 0.28381652, 0)
+shape = SubResource("BoxShape3D_jqso3")

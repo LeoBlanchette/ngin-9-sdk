@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://buks2tdmnhqmp"]
+
+[ext_resource type="PackedScene" uid="uid://cnwkwreobh4h0" path="res://mods/content/models/sources/pocket-watch.blend" id="1_ok3bg"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_0jc8b"]
+height = 0.07507324
+radius = 0.1508789
+
+[node name="pocket-watch" unique_id=2070416996 instance=ExtResource("1_ok3bg")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=99965875]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.044006348, 0)
+shape = SubResource("CylinderShape3D_0jc8b")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=404763244]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.22001415, -0.16406018)
+shape = SubResource("CylinderShape3D_0jc8b")

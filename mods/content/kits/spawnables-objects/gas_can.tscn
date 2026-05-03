@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dmqs84y2lb6vm"]
+
+[ext_resource type="PackedScene" uid="uid://ydn1ydux47oa" path="res://mods/content/models/sources/gas-can.blend" id="1_7tkad"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7tkad"]
+size = Vector3(0.24584961, 0.4805298, 0.4794922)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8spst"]
+size = Vector3(0.080078125, 0.6307678, 0.29797363)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_7j64b"]
+size = Vector3(0.07836914, 0.48632813, 0.078552246)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8ybjm"]
+size = Vector3(0.07836914, 0.07022095, 0.06578064)
+
+[node name="gas-can" unique_id=1800783590 instance=ExtResource("1_7tkad")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1777085859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.24032593, 0)
+shape = SubResource("BoxShape3D_7tkad")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1452304176]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.31544495, -0.113708496)
+shape = SubResource("BoxShape3D_8spst")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=955009303]
+transform = Transform3D(1, 3.8575507e-08, -2.3153769e-08, -3.8575507e-08, 0.47030354, -0.8825047, -2.3153769e-08, 0.8825047, 0.47030354, 2.2076911e-09, 0.56713, 0.41447428)
+shape = SubResource("BoxShape3D_7j64b")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=1395117516]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.0203444e-08, 0.68279105, 0.67097354)
+shape = SubResource("BoxShape3D_8ybjm")

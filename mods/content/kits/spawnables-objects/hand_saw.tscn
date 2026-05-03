@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://b0ga37ynku8c1"]
+
+[ext_resource type="PackedScene" uid="uid://n4ifmo654knc" path="res://mods/content/models/sources/hand-saw.blend" id="1_bgx77"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bgx77"]
+size = Vector3(0.072509766, 0.9230957, 0.35253906)
+
+[node name="hand-saw" unique_id=193401570 instance=ExtResource("1_bgx77")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1312897859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.47155762, -0.015136719)
+shape = SubResource("BoxShape3D_bgx77")

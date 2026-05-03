@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c4inpafyuk0rt"]
+
+[ext_resource type="PackedScene" uid="uid://d1kjnmixltwdr" path="res://mods/content/models/sources/laptop.blend" id="1_wl1wk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wl1wk"]
+size = Vector3(0.8046875, 0.05230713, 0.5539551)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_d4nyl"]
+size = Vector3(0.8046875, 0.55459595, 0.05432129)
+
+[node name="laptop" unique_id=1504959000 instance=ExtResource("1_wl1wk")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1278821773]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0013122559, -0.01965332)
+shape = SubResource("BoxShape3D_wl1wk")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=50846674]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.25245667, -0.2694702)
+shape = SubResource("BoxShape3D_d4nyl")

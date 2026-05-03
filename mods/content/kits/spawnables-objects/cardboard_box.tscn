@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ewuigefxv7u7"]
+
+[ext_resource type="PackedScene" uid="uid://dgqni22olmuud" path="res://mods/content/models/sources/cardboard-box.blend" id="1_v0gki"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_v0gki"]
+
+[node name="cardboard-box" unique_id=675547766 instance=ExtResource("1_v0gki")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=491468904]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
+shape = SubResource("BoxShape3D_v0gki")

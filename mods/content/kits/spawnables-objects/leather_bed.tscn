@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bglul7ybcc02a"]
+
+[ext_resource type="PackedScene" uid="uid://dlto015svhbuo" path="res://mods/content/models/sources/leather-bed.blend" id="1_o8423"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hmg3o"]
+size = Vector3(1.1662598, 0.39318848, 1.9937744)
+
+[node name="leather-bed" unique_id=696812407 instance=ExtResource("1_o8423")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1304546965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.19659424, 0.0076293945)
+shape = SubResource("BoxShape3D_hmg3o")

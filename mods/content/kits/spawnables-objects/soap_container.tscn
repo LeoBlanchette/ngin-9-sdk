@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bnylqa2lkcc7x"]
+
+[ext_resource type="PackedScene" uid="uid://dpq6fifvtb4ac" path="res://mods/content/models/sources/soap-container.blend" id="1_2n3wv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2n3wv"]
+size = Vector3(0.25390625, 0.60009766, 0.13867188)
+
+[node name="soap-container" unique_id=1744599367 instance=ExtResource("1_2n3wv")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=929493121]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.30004883, 0)
+shape = SubResource("BoxShape3D_2n3wv")

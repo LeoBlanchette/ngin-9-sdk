@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://x14j26ftxv8l"]
+
+[ext_resource type="PackedScene" uid="uid://caso047637lw4" path="res://mods/content/models/sources/nail.blend" id="1_upjqu"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_luxiv"]
+size = Vector3(0.1, 0.029492188, 0.1)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_upjqu"]
+radius = 0.03125
+height = 0.22918701
+
+[node name="nail" unique_id=1015397317 instance=ExtResource("1_upjqu")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2076777316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21517384, 0)
+shape = SubResource("BoxShape3D_luxiv")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=725620670]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.11373901, 0)
+shape = SubResource("CapsuleShape3D_upjqu")

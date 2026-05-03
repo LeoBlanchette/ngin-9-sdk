@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://cwi3fvglkjlki"]
+
+[ext_resource type="PackedScene" uid="uid://bfdbftm7kybla" path="res://mods/content/models/sources/chainsaw.blend" id="1_3vuve"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3vuve"]
+size = Vector3(0.3330078, 0.31732178, 0.40618896)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_44bgk"]
+size = Vector3(0.20214844, 0.09648132, 0.030517578)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2k86a"]
+size = Vector3(0.068115234, 0.16208458, 0.14790344)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ggg7l"]
+size = Vector3(0.04095459, 0.17962027, 0.48729324)
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ob6o1"]
+height = 0.04345703
+radius = 0.087402344
+
+[node name="chainsaw" unique_id=1141142659 instance=ExtResource("1_3vuve")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1783923089]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15859985, -0.03427124)
+shape = SubResource("BoxShape3D_3vuve")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1267303296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3689041, 0.0045166016)
+shape = SubResource("BoxShape3D_44bgk")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=89500636]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.08178234, -0.31258392)
+shape = SubResource("BoxShape3D_2k86a")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=1696096255]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.108391404, 0.108061075, 0.41252327)
+shape = SubResource("BoxShape3D_ggg7l")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." index="5" unique_id=1795013236]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -0.10876465, 0.10654926, 0.6519659)
+shape = SubResource("CylinderShape3D_ob6o1")

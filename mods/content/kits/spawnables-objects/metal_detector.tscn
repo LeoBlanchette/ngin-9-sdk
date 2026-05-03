@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://0yywh12s6yua"]
+
+[ext_resource type="PackedScene" uid="uid://cj8lrms5bfh2q" path="res://mods/content/models/sources/metal-detector.blend" id="1_4ipfp"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_570jw"]
+size = Vector3(0.45996094, 0.07140732, 0.56152344)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4ipfp"]
+size = Vector3(0.2685547, 0.047348022, 0.30181885)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_axnm5"]
+size = Vector3(0.091552734, 0.84265137, 0.09259033)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_niigl"]
+size = Vector3(0.091552734, 0.20684052, 0.45677567)
+
+[node name="metal-detector" unique_id=1105090328 instance=ExtResource("1_4ipfp")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1787789053]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.03500557, 0.34753418)
+shape = SubResource("BoxShape3D_570jw")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1581674044]
+transform = Transform3D(1, 0, 0, 0, 0.8660254, 0.5, 0, -0.5, 0.8660254, 0, 1.105697, -0.27348414)
+shape = SubResource("BoxShape3D_4ipfp")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1566444234]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0.46812004, 0.1951761)
+shape = SubResource("BoxShape3D_axnm5")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=1057581330]
+transform = Transform3D(1, 0, 0, 0, 0.9659258, 0.25881904, 0, -0.25881904, 0.9659258, 0, 0.9673851, -0.020914141)
+shape = SubResource("BoxShape3D_niigl")

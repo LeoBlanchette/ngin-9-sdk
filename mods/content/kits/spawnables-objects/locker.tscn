@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://vqbnred1ayk2"]
+
+[ext_resource type="PackedScene" uid="uid://dumssrgno3pbs" path="res://mods/content/models/sources/locker.blend" id="1_jdgmo"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6xq2m"]
+size = Vector3(0.9567871, 1.992157, 1.0201416)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_36bmu"]
+size = Vector3(0.066223145, 0.31243134, 0.08369446)
+
+[node name="locker" unique_id=1098319684 instance=ExtResource("1_jdgmo")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=447582180]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.006591797, 1.0019073, 0.022766113)
+shape = SubResource("BoxShape3D_6xq2m")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=496937342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25619507, 0.9998665, 0.5741806)
+shape = SubResource("BoxShape3D_36bmu")

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cekeclbmrjfos"]
+
+[ext_resource type="PackedScene" uid="uid://01ujo8ubhjsa" path="res://mods/content/models/sources/soup-1.blend" id="1_4c0mb"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_t0jq6"]
+height = 0.2515869
+radius = 0.104003906
+
+[node name="soup-1" unique_id=1631298766 instance=ExtResource("1_4c0mb")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=2073496643]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.12347412, 0)
+shape = SubResource("CylinderShape3D_t0jq6")

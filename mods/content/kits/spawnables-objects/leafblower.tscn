@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://b6vfnclunmodc"]
+
+[ext_resource type="PackedScene" uid="uid://dr668j4b6e70q" path="res://mods/content/models/sources/leafblower.blend" id="1_tmgp7"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_tmgp7"]
+height = 0.20800781
+radius = 0.2529297
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_goyxt"]
+height = 0.3564453
+radius = 0.12695313
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_mknc3"]
+height = 0.7565918
+radius = 0.09082031
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_me6d8"]
+size = Vector3(0.0859375, 0.57470703, 0.29882813)
+
+[node name="leafblower" unique_id=438011086 instance=ExtResource("1_tmgp7")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1251787283]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.0911411e-08, 0.249624, 0)
+shape = SubResource("CylinderShape3D_tmgp7")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=1254057928]
+transform = Transform3D(-4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0, 1, -1.0911411e-08, 0.249624, 0)
+shape = SubResource("CylinderShape3D_goyxt")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="3" unique_id=1249520050]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, -1.0911411e-08, 0.24962397, 0.59606934)
+shape = SubResource("CylinderShape3D_mknc3")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="4" unique_id=558808078]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.34350586, -0.111328125)
+shape = SubResource("BoxShape3D_me6d8")

@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://bnre5l76nhgl3"]
+
+[ext_resource type="PackedScene" uid="uid://buprjac7pxb5i" path="res://mods/content/models/sources/sofa-red-old.blend" id="1_gw3pr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_41c3e"]
+size = Vector3(1.0625, 0.43103027, 0.82507324)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gw3pr"]
+size = Vector3(1.0625, 0.56288147, 0.14788818)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_m6qnw"]
+size = Vector3(0.14996338, 0.70150757, 0.82507324)
+
+[node name="sofa-red-old" unique_id=2014506940 instance=ExtResource("1_gw3pr")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1045593794]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21514893, -0.019104004)
+shape = SubResource("BoxShape3D_41c3e")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." index="2" unique_id=734549571]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7076187, -0.35769653)
+shape = SubResource("BoxShape3D_gw3pr")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="3" unique_id=676416310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.60775757, 0.35072327, -0.019104004)
+shape = SubResource("BoxShape3D_m6qnw")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." index="4" unique_id=2100273097]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.608, 0.351, -0.019)
+shape = SubResource("BoxShape3D_m6qnw")

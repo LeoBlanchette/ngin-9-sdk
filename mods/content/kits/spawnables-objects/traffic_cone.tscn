@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://uyc3w5bbhxit"]
+
+[ext_resource type="PackedScene" uid="uid://bt44bppb3nb5b" path="res://mods/content/models/sources/traffic-cone.blend" id="1_0am7g"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hy7sn"]
+radius = 0.15234375
+height = 0.66467285
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0am7g"]
+size = Vector3(0.48217773, 0.07824707, 0.47680664)
+
+[node name="traffic-cone" unique_id=130028625 instance=ExtResource("1_0am7g")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1323002165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.3463745, 0)
+shape = SubResource("CapsuleShape3D_hy7sn")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." index="2" unique_id=2086177361]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.035583496, 0)
+shape = SubResource("BoxShape3D_0am7g")

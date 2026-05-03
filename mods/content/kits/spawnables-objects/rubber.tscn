@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://63mankgi6qw"]
+
+[ext_resource type="PackedScene" uid="uid://cfpqt0ycr2rnu" path="res://mods/content/models/sources/rubber.blend" id="1_eberc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ga4mo"]
+size = Vector3(0.3486328, 0.039245605, 0.49438477)
+
+[node name="rubber" unique_id=716905562 instance=ExtResource("1_eberc")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1596666646]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.021087646, 0)
+shape = SubResource("BoxShape3D_ga4mo")
