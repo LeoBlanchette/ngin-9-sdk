@@ -26,7 +26,7 @@ size = Vector3(0.20496368, 0.57894135, 0.041625977)
 [node name="vending_machine" unique_id=1699547004 instance=ExtResource("1_6q36q")]
 freeze = true
 
-[node name="VendingMachine" parent="." index="0" unique_id=1464908815]
+[node name="VendingMachine" parent="." index="0" unique_id=992266282]
 surface_material_override/0 = SubResource("StandardMaterial3D_du7fq")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." index="1" unique_id=1808537659]
@@ -38,3 +38,6 @@ shape = SubResource("BoxShape3D_6q36q")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Activate_1" index="0" unique_id=1054926262]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.401165, 1.3850822, -0.4043579)
 shape = SubResource("BoxShape3D_cjmtp")
+
+[node name="Spawner" type="Node3D" parent="." index="3" unique_id=339807096]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.49786377, -0.59284973)

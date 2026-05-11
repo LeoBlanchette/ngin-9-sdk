@@ -22,7 +22,7 @@ size = Vector3(0.5151367, 0.28147888, 0.053955078)
 
 [node name="generator" unique_id=1776424060 instance=ExtResource("1_v3pkf")]
 
-[node name="Generator" parent="." index="0" unique_id=124438893]
+[node name="Generator" parent="." index="0" unique_id=421553587]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0048828125, -0.0022583008, 0.0059814453)
 surface_material_override/0 = SubResource("StandardMaterial3D_a32fi")
 
